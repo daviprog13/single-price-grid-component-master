@@ -1,0 +1,19 @@
+@import 'geral.css';
+:root {
+    --cYanC: #4ABEBD;
+    --Cyan: #2AB2AF;
+    --BrightYellow: #C0DF34;
+    --LightGray: #E5EFF5;
+    --GrayishBlue: #98A6BD;
+    --background: #E6EFF6;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
